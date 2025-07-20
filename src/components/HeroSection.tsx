@@ -26,7 +26,7 @@ const HeroSection = () => {
           {/* Main content */}
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              John <span className="text-gradient bg-gradient-to-r from-white to-purple-200 bg-clip-text">Developer</span>
+              Neeraj <span className="text-gradient bg-gradient-to-r from-white to-purple-200 bg-clip-text">Developer</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/80 mb-2 font-light">
               Full Stack Software Developer
