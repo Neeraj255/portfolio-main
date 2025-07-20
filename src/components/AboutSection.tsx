@@ -38,7 +38,7 @@ const AboutSection = () => {
           {/* About Content */}
           <div className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div>
-              <h3 className="text-2xl font-semibold mb-4">Hello! I'm John</h3>
+              <h3 className="text-2xl font-semibold mb-4">Hello! I'm Neeraj</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
                   I'm a passionate full-stack developer with over 5 years of experience 
