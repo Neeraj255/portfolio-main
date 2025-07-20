@@ -11,7 +11,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:john.developer@email.com", label: "Email" }
+    { icon: Mail, href: "mailto:neeraj.developer@email.com", label: "Email" }
   ];
 
   const quickLinks = [
@@ -29,7 +29,7 @@ const Footer = () => {
           {/* Brand & Quote */}
           <div className="space-y-4">
             <div className="text-2xl font-bold text-gradient">
-              John Developer
+              Neeraj Developer
             </div>
             <p className="text-muted-foreground leading-relaxed italic">
               "Code is like humor. When you have to explain it, it's bad."
@@ -94,7 +94,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           <div className="flex items-center space-x-1 text-sm text-muted-foreground">
-            <span>© {currentYear} John Developer. Made with</span>
+            <span>© {currentYear} Neeraj Developer. Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />
             <span>and React</span>
           </div>

@@ -45,8 +45,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john.developer@email.com",
-      href: "mailto:john.developer@email.com"
+      value: "neeraj.developer@email.com",
+      href: "mailto:neeraj.developer@email.com"
     },
     {
       icon: Phone,
@@ -66,7 +66,7 @@ const ContactSection = () => {
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:john.developer@email.com", label: "Email" }
+    { icon: Mail, href: "mailto:neeraj.developer@email.com", label: "Email" }
   ];
 
   return (
