@@ -97,24 +97,6 @@ const SkillsSection = () => {
           ))}
         </div>
 
-        {/* Additional Skills Tags */}
-        <div className="mt-16 text-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          <h3 className="text-2xl font-semibold mb-6">Also Experienced With</h3>
-          <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
-            {[
-              "GraphQL", "Redux", "Express.js", "FastAPI", "Firebase", 
-              "Supabase", "Prisma", "Jest", "Cypress", "Vercel", 
-              "Netlify", "Linux", "Nginx", "Redis", "ElasticSearch"
-            ].map((tech, index) => (
-              <span 
-                key={index}
-                className="px-4 py-2 bg-card border border-border rounded-full text-sm hover:bg-muted transition-smooth cursor-default"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
