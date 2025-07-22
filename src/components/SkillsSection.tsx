@@ -8,30 +8,28 @@ const SkillsSection = () => {
 
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Programming Languages",
       skills: [
-        { name: "React/Next.js", level: 95, icon: "⚛️" },
-        { name: "TypeScript", level: 90, icon: "📘" },
-        { name: "Tailwind CSS", level: 88, icon: "🎨" },
-        { name: "JavaScript", level: 92, icon: "💛" }
+        { name: "Python", level: 90, icon: "🐍" },
+        { name: "C", level: 80, icon: "⚙️" },
+        { name: "Java", level: 75, icon: "☕" }
       ]
     },
     {
-      title: "Backend Development", 
+      title: "Web Technologies", 
       skills: [
-        { name: "Node.js", level: 85, icon: "🟢" },
-        { name: "Python", level: 80, icon: "🐍" },
-        { name: "PostgreSQL", level: 75, icon: "🐘" },
-        { name: "MongoDB", level: 70, icon: "🍃" }
+        { name: "HTML", level: 90, icon: "🌐" },
+        { name: "CSS", level: 80, icon: "🎨" },
+        { name: "MySQL", level: 75, icon: "🗄️" }
       ]
     },
     {
       title: "Tools & Technologies",
       skills: [
-        { name: "Git/GitHub", level: 90, icon: "🔧" },
-        { name: "Docker", level: 75, icon: "🐳" },
-        { name: "AWS", level: 70, icon: "☁️" },
-        { name: "Figma", level: 80, icon: "🎯" }
+        { name: "Figma", level: 80, icon: "🎯" },
+        { name: "Git/GitHub", level: 70, icon: "🔧" },
+        { name: "Docker", level: 60, icon: "🐳" },
+        { name: "Automation", level: 50, icon: "🤖" }
       ]
     }
   ];
