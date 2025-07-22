@@ -26,10 +26,10 @@ const HeroSection = () => {
           {/* Main content */}
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Neeraj <span className="text-gradient bg-gradient-to-r from-white to-purple-200 bg-clip-text">Developer</span>
+              Neeraj <span className="text-gradient bg-gradient-to-r from-white to-purple-200 bg-clip-text">Gandu</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/80 mb-2 font-light">
-              Full Stack Software Developer
+              AIML engineer
             </p>
             <p className="text-lg text-white/70 max-w-2xl mx-auto leading-relaxed">
               Crafting beautiful, functional, and user-centered digital experiences with modern technologies
