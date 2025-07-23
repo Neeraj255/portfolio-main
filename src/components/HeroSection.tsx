@@ -63,6 +63,7 @@ const HeroSection = () => {
               variant="ghost" 
               size="sm"
               className="text-white/70 hover:text-white hover:bg-white/10 rounded-full p-3"
+              onClick={() => window.open('https://github.com/Neeraj255', '_blank')}
             >
               <Github className="h-6 w-6" />
             </Button>
