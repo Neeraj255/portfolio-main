@@ -45,19 +45,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "neeraj.developer@email.com",
-      href: "mailto:neeraj.developer@email.com"
+      value: "neerajneeru388@gmail.com",
+      href: "mailto:neerajneeru388@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 7989169881",
+      href: "tel:+917989169881"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "India, Vizag",
       href: "#"
     }
   ];
@@ -66,7 +66,7 @@ const ContactSection = () => {
     { icon: Github, href: "https://github.com/Neeraj255", label: "GitHub" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:neeraj.developer@email.com", label: "Email" }
+    { icon: Mail, href: "mailto:neerajneeru388@gmail.com", label: "Email" }
   ];
 
   return (
