@@ -6,40 +6,49 @@ import { ExternalLink, Award, Calendar } from 'lucide-react';
 const CertificatesSection = () => {
   const certificates = [
     {
-      title: "AWS Solutions Architect Associate",
-      issuer: "Amazon Web Services",
+      title: "IBM AI Engineering Professional Certificate",
+      issuer: "IBM",
+      date: "2024",
+      description: "Comprehensive AI engineering program covering machine learning, deep learning, and AI application development.",
+      skills: ["AI Engineering", "Machine Learning", "Deep Learning", "TensorFlow"],
+      link: "#",
+      image: "🤖"
+    },
+    {
+      title: "Software Engineering Job Simulation",
+      issuer: "JPMORGAN Chase&CO",
+      date: "2024", 
+      description: "Hands-on software engineering experience simulating real-world financial technology projects.",
+      skills: ["Software Engineering", "Financial Technology", "Java", "React"],
+      link: "#",
+      image: "💼"
+    },
+    {
+      title: "Introduction to Computer Vision and Image Processing",
+      issuer: "IBM",
       date: "2023",
-      description: "Cloud architecture, security, and best practices for scalable applications on AWS platform.",
-      skills: ["AWS", "Cloud Architecture", "Security", "DevOps"],
+      description: "Fundamentals of computer vision, image processing techniques, and practical applications in AI.",
+      skills: ["Computer Vision", "Image Processing", "OpenCV", "Python"],
       link: "#",
-      image: "🏆"
+      image: "👁️"
     },
     {
-      title: "React Developer Certification",
-      issuer: "Meta (Facebook)",
-      date: "2022", 
-      description: "Advanced React concepts, hooks, state management, and modern development practices.",
-      skills: ["React", "JavaScript", "Frontend", "Component Design"],
-      link: "#",
-      image: "⚛️"
-    },
-    {
-      title: "Google Cloud Professional",
-      issuer: "Google Cloud",
+      title: "Machine Learning with Python",
+      issuer: "IBM",
       date: "2023",
-      description: "Cloud platform expertise, machine learning integration, and data analytics solutions.",
-      skills: ["GCP", "Machine Learning", "Data Analytics", "Cloud"],
+      description: "Comprehensive machine learning course using Python for data analysis and predictive modeling.",
+      skills: ["Machine Learning", "Python", "Scikit-learn", "Data Analysis"],
       link: "#",
-      image: "☁️"
+      image: "🐍"
     },
     {
-      title: "Full Stack Web Development",
-      issuer: "freeCodeCamp",
-      date: "2021",
-      description: "Comprehensive full-stack development including frontend, backend, and database technologies.",
-      skills: ["Full Stack", "Node.js", "Database", "API Development"],
+      title: "Introduction to Artificial Intelligence (AI)",
+      issuer: "IBM",
+      date: "2023",
+      description: "Foundational concepts of artificial intelligence, AI applications, and ethical considerations.",
+      skills: ["Artificial Intelligence", "AI Ethics", "Neural Networks", "Data Science"],
       link: "#",
-      image: "💻"
+      image: "🧠"
     }
   ];
 
