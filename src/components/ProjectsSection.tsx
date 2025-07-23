@@ -121,7 +121,10 @@ const ProjectsSection = () => {
                 These are just a few highlights of my work. Check out my GitHub profile 
                 for more projects, contributions, and code samples.
               </p>
-              <Button className="shadow-elegant">
+              <Button 
+                className="shadow-elegant"
+                onClick={() => window.open('https://github.com/Neeraj255', '_blank')}
+              >
                 <Github className="mr-2 h-5 w-5" />
                 View All Projects on GitHub
               </Button>
