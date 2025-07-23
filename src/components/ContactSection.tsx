@@ -64,7 +64,7 @@ const ContactSection = () => {
 
   const socialLinks = [
     { icon: Github, href: "https://github.com/Neeraj255", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/neeraj-gandu-04b807290/", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
     { icon: Mail, href: "mailto:neerajneeru388@gmail.com", label: "Email" }
   ];
