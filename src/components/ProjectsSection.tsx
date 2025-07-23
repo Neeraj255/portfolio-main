@@ -6,64 +6,36 @@ import { ExternalLink, Github, Eye } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce application with payment integration, inventory management, and admin dashboard. Built with modern technologies for optimal performance and user experience.",
-      image: "🛒",
-      techStack: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-      features: ["Payment Processing", "Inventory Management", "Admin Dashboard", "Responsive Design"],
-      githubLink: "#",
-      liveLink: "#",
-      category: "Full Stack"
+      title: "FitTrack",
+      description: "A comprehensive fitness website that calculates daily protein intake requirements, provides personalized diet plans, and tracks workout progress for optimal health management.",
+      image: "💪",
+      techStack: ["HTML", "CSS", "JavaScript", "Python"],
+      features: ["Protein Calculator", "Diet Planning", "Workout Tracking", "Progress Analytics"],
+      category: "Web Development"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team collaboration features, and advanced project tracking capabilities.",
-      image: "📋", 
-      techStack: ["Next.js", "TypeScript", "Prisma", "Socket.io", "Tailwind"],
-      features: ["Real-time Collaboration", "Project Tracking", "Team Management", "Dark Mode"],
-      githubLink: "#",
-      liveLink: "#",
-      category: "SaaS"
+      title: "Stock Prediction",
+      description: "A machine learning model that analyzes historical stock data and market trends to predict future stock values with high accuracy using advanced algorithms.",
+      image: "📈",
+      techStack: ["Python", "Scikit-learn", "Pandas", "NumPy"],
+      features: ["Data Analysis", "Trend Prediction", "Model Training", "Performance Metrics"],
+      category: "Machine Learning"
     },
     {
-      title: "Weather Dashboard",
-      description: "A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics using modern APIs and responsive design.",
-      image: "🌤️",
-      techStack: ["React", "OpenWeather API", "Chart.js", "PWA"],
-      features: ["Location Services", "Interactive Maps", "Weather Analytics", "PWA Support"],
-      githubLink: "#",
-      liveLink: "#",
-      category: "Frontend"
+      title: "Car Price Prediction",
+      description: "An intelligent ML model that predicts car prices based on various features like brand, model, year, mileage, and condition using regression algorithms.",
+      image: "🚗",
+      techStack: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+      features: ["Feature Analysis", "Price Estimation", "Model Validation", "Data Visualization"],
+      category: "Machine Learning"
     },
     {
-      title: "AI Chat Assistant",
-      description: "An intelligent chat assistant powered by AI with natural language processing, conversation memory, and integration with various APIs for enhanced functionality.",
-      image: "🤖",
-      techStack: ["Python", "FastAPI", "OpenAI", "Redis", "React"],
-      features: ["Natural Language Processing", "Conversation Memory", "API Integration", "Real-time Chat"],
-      githubLink: "#",
-      liveLink: "#", 
+      title: "Heart Disease Detector",
+      description: "A medical prediction model that analyzes patient health parameters to detect the likelihood of heart disease, helping in early diagnosis and prevention.",
+      image: "❤️",
+      techStack: ["Python", "Scikit-learn", "Pandas", "Seaborn"],
+      features: ["Health Analysis", "Risk Assessment", "Diagnostic Support", "Statistical Insights"],
       category: "AI/ML"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website showcasing projects and skills with smooth animations, dark mode support, and optimized performance.",
-      image: "💼",
-      techStack: ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
-      features: ["Smooth Animations", "Dark Mode", "Responsive Design", "SEO Optimized"],
-      githubLink: "#",
-      liveLink: "#",
-      category: "Frontend"
-    },
-    {
-      title: "Data Analytics Platform",
-      description: "A comprehensive data analytics platform with interactive dashboards, real-time data processing, and advanced visualization capabilities for business insights.",
-      image: "📊",
-      techStack: ["Python", "Django", "PostgreSQL", "D3.js", "Docker"],
-      features: ["Interactive Dashboards", "Real-time Processing", "Data Visualization", "Export Features"],
-      githubLink: "#",
-      liveLink: "#",
-      category: "Data Science"
     }
   ];
 
@@ -135,24 +107,6 @@ const ProjectsSection = () => {
                   </div>
                 </div>
                 
-                {/* Action Buttons */}
-                <div className="flex space-x-2 pt-2">
-                  <Button 
-                    variant="outline" 
-                    size="sm"
-                    className="flex-1 group-hover:bg-primary group-hover:text-primary-foreground transition-smooth"
-                  >
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </Button>
-                  <Button 
-                    size="sm"
-                    className="flex-1 shadow-elegant"
-                  >
-                    <Eye className="mr-2 h-4 w-4" />
-                    Live Demo
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           ))}
