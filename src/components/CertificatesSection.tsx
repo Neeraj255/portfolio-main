@@ -109,18 +109,6 @@ const CertificatesSection = () => {
                     </Badge>
                   ))}
                 </div>
-                
-                {/* Action Button */}
-                <div className="pt-2">
-                  <Button 
-                    variant="outline" 
-                    size="sm"
-                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-smooth"
-                  >
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    View Certificate
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           ))}
