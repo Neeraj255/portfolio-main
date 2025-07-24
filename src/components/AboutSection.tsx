@@ -41,37 +41,16 @@ const AboutSection = () => {
               <h3 className="text-2xl font-semibold mb-4">Hello! I'm Neeraj</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a passionate full-stack developer with over 5 years of experience 
-                  in creating beautiful, functional, and user-centered digital experiences. 
-                  My journey in tech started with a curiosity about how websites work, 
-                  and it has evolved into a deep love for crafting solutions that make a difference.
+                  Hi, I'm Neeraj, a 3rd-year Computer Science (AI & ML) student at GITAM University. 
+                  I'm passionate about solving real-world problems with technology and constantly 
+                  pushing my boundaries in the world of Artificial Intelligence and Machine Learning.
                 </p>
                 <p>
-                  I specialize in modern web technologies including React, Node.js, TypeScript, 
-                  and cloud platforms. I believe in writing clean, maintainable code and 
-                  creating intuitive user interfaces that solve real problems.
+                  I've gained hands-on experience in AI, ranging from full-stack development to 
+                  core AI/ML tools. I'm also a strong believer in collaboration — whether it's 
+                  working in a team or leading one, I thrive in environments where innovation 
+                  and communication come together.
                 </p>
-                <p>
-                  When I'm not coding, you can find me exploring new technologies, 
-                  contributing to open-source projects, or enjoying a good cup of coffee 
-                  while reading about the latest developments in tech.
-                </p>
-              </div>
-            </div>
-
-            {/* Highlights */}
-            <div>
-              <h4 className="text-lg font-semibold mb-3">Quick Highlights</h4>
-              <div className="flex flex-wrap gap-2">
-                {highlights.map((highlight, index) => (
-                  <Badge 
-                    key={index}
-                    variant="secondary" 
-                    className="bg-primary/10 text-primary hover:bg-primary/20 transition-smooth"
-                  >
-                    {highlight}
-                  </Badge>
-                ))}
               </div>
             </div>
 
