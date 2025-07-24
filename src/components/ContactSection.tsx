@@ -69,9 +69,7 @@ const ContactSection = () => {
 
   const socialLinks = [
     { icon: Github, href: "https://github.com/Neeraj255", label: "GitHub" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/neeraj-gandu-04b807290/", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:neerajneeru388@gmail.com", label: "Email" }
+    { icon: Linkedin, href: "https://www.linkedin.com/in/neeraj-gandu-04b807290/", label: "LinkedIn" }
   ];
 
   return (
@@ -215,19 +213,6 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            {/* Call to Action */}
-            <Card className="bg-gradient-to-r from-primary/5 to-accent/5 border-primary/20">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-3">Ready to start a project?</h3>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  I'm currently available for freelance work and new opportunities. 
-                  Let's discuss your project and see how I can help bring your vision to life.
-                </p>
-                <Button className="w-full shadow-elegant">
-                  Schedule a Call
-                </Button>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>
