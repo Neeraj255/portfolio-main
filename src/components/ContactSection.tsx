@@ -25,20 +25,25 @@ const ContactSection = () => {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    // Create mailto link with form data
+    const subject = encodeURIComponent(formData.subject);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    const mailtoLink = `mailto:neerajneeru388@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
     
     toast({
-      title: "Message sent!",
-      description: "Thank you for your message. I'll get back to you soon!",
+      title: "Opening email client...",
+      description: "Your email client will open with the message pre-filled.",
     });
     
     setFormData({ name: '', email: '', subject: '', message: '' });
-    setIsSubmitting(false);
   };
 
   const contactInfo = [
