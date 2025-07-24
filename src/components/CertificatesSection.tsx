@@ -6,13 +6,31 @@ import { ExternalLink, Award, Calendar } from 'lucide-react';
 const CertificatesSection = () => {
   const certificates = [
     {
+      title: "Artificial Intelligence Internship",
+      issuer: "TEACHNOOK",
+      date: "2024",
+      description: "Comprehensive artificial intelligence internship program covering AI fundamentals, applications, and practical implementations.",
+      skills: ["Artificial Intelligence", "AI Applications", "Machine Learning", "Data Science"],
+      link: "#",
+      image: "🤖"
+    },
+    {
+      title: "Machine Learning Intern",
+      issuer: "Unified Mentor (ISO Certified)",
+      date: "2024",
+      description: "Machine learning internship certified by ISO, focusing on practical ML implementations and real-world applications.",
+      skills: ["Machine Learning", "Data Analysis", "Python", "Model Development"],
+      link: "#",
+      image: "🎯"
+    },
+    {
       title: "IBM AI Engineering Professional Certificate",
       issuer: "IBM",
       date: "2024",
       description: "Comprehensive AI engineering program covering machine learning, deep learning, and AI application development.",
       skills: ["AI Engineering", "Machine Learning", "Deep Learning", "TensorFlow"],
       link: "#",
-      image: "🤖"
+      image: "🔧"
     },
     {
       title: "Software Engineering Job Simulation",

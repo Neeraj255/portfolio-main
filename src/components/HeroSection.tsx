@@ -37,7 +37,7 @@ const HeroSection = () => {
           </div>
 
           {/* Action buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+          <div className="flex items-center justify-center mb-12">
             <Button 
               onClick={scrollToAbout}
               size="lg" 
@@ -45,15 +45,6 @@ const HeroSection = () => {
             >
               Explore My Work
               <ChevronDown className="ml-2 h-5 w-5" />
-            </Button>
-            
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
             </Button>
           </div>
 
