@@ -41,7 +41,7 @@ const AboutSection = () => {
               <h3 className="text-2xl font-semibold mb-4">Hello! I'm Neeraj</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Hi, I'm Neeraj, a 3rd-year Computer Science (AI & ML) student at GITAM University. 
+                  I'm a 3rd-year Computer Science (AI & ML) student at GITAM University. 
                   I'm passionate about solving real-world problems with technology and constantly 
                   pushing my boundaries in the world of Artificial Intelligence and Machine Learning.
                 </p>
