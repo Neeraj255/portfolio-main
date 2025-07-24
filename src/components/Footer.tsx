@@ -10,8 +10,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: Github, href: "https://github.com/Neeraj255", label: "GitHub" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/neeraj-gandu-04b807290/", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:neeraj.developer@email.com", label: "Email" }
+    { icon: Linkedin, href: "https://www.linkedin.com/in/neeraj-gandu-04b807290/", label: "LinkedIn" }
   ];
 
   const quickLinks = [

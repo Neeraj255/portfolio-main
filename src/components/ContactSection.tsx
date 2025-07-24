@@ -54,12 +54,6 @@ const ContactSection = () => {
       href: "mailto:neerajneeru388@gmail.com"
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "+91 7989169881",
-      href: "tel:+917989169881"
-    },
-    {
       icon: MapPin,
       label: "Location",
       value: "India, Vizag",

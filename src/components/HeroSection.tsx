@@ -75,13 +75,6 @@ const HeroSection = () => {
             >
               <Linkedin className="h-6 w-6" />
             </Button>
-            <Button 
-              variant="ghost" 
-              size="sm"
-              className="text-white/70 hover:text-white hover:bg-white/10 rounded-full p-3"
-            >
-              <Mail className="h-6 w-6" />
-            </Button>
           </div>
         </div>
       </div>
